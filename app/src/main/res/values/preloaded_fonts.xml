@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alfa_slab_one</item>
+        <item>@font/archivo_black</item>
+        <item>@font/arima_madurai_thin</item>
+        <item>@font/asap</item>
+        <item>@font/assistant_bold</item>
+        <item>@font/assistant_semibold</item>
+        <item>@font/basic</item>
+        <item>@font/proza_libre</item>
+        <item>@font/ramabhadra</item>
+        <item>@font/sigmar_one</item>
+    </array>
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/ellipse2"
+        android:layout_width="104dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toStartOf="@+id/image4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image1"
+        app:srcCompat="@mipmap/ic_ellipse2_foreground"></ImageView>
+
+    <ImageView
+        android:id="@+id/ellipse3"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="22dp"
+        app:layout_constraintEnd_toStartOf="@+id/image4"
+        app:layout_constraintTop_toBottomOf="@+id/ellipse2"
+        app:srcCompat="@mipmap/ic_ellipse3_foreground"></ImageView>
+
+
+    <ImageView
+        android:id="@+id/ellipse6"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image4"
+        app:layout_constraintTop_toBottomOf="@+id/ellipse7"
+        app:srcCompat="@mipmap/ic_ellipse6_foreground"></ImageView>
+
+    <ImageView
+        android:id="@+id/ellipse7"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="31dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image4"
+        app:layout_constraintTop_toBottomOf="@+id/image3"
+        app:srcCompat="@mipmap/ic_ellipse7_foreground"></ImageView>
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintBottom_toTopOf="@+id/image4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/ic_image1_foreground"></ImageView>
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="104dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_image3_foreground"></ImageView>
+
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="191dp"
+        android:layout_marginEnd="108dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_image4_foreground"></ImageView>
+
+    <ImageView
+        android:id="@+id/rectangle188"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/ellipse6"
+        app:layout_constraintStart_toEndOf="@+id/ellipse3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_rectangle188_foreground"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="72dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle188">
+
+        <TextView
+            android:id="@+id/start_cooki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Start Cooking"
+            android:textAlignment="center"
+            android:textColor="@color/start_cooki_text_color"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:translationY="-2.69sp"
+            android:lineSpacingExtra="5sp"
+            android:letterSpacing="0.02"></TextView>
+
+        <TextView
+            android:id="@+id/let_s_join_"
+            android:layout_width="209dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="@string/let_s_join_"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:lineSpacingExtra="6sp"
+            android:translationY="-3.21sp"
+            android:textColor="@color/text_color"></TextView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/button_background"
+            android:text="@string/get_started"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
