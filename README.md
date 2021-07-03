@@ -7,7 +7,7 @@
 
 ## Gerçekleştirilen Tasarımlar :
  
- |UI Desing 1 | UI Desing 2 |
+ |UI Design 1 | UI Design 2 |
 | --- | ---
  |  <image src="https://user-images.githubusercontent.com/80040232/124367837-7b185f80-dc63-11eb-8b76-8ea7cc83e324.PNG" width="300"> | <image src="https://user-images.githubusercontent.com/80040232/124367935-933cae80-dc64-11eb-9bf6-653ca9930d0b.PNG" width="300"> | 
-  [UI Desing 1 XML](https://github.com/Yemeksepeti-Mobil-Android-Bootcamp/android-views-furkanakalin/blob/master/app/src/main/res/layout/activity_secound.xml)| [UI Desing 2 XML](https://github.com/Yemeksepeti-Mobil-Android-Bootcamp/android-views-furkanakalin/blob/master/app/src/main/res/layout/activity_profile.xml)| 
+  [UI Design 1 XML](https://github.com/Yemeksepeti-Mobil-Android-Bootcamp/android-views-furkanakalin/blob/master/app/src/main/res/layout/activity_secound.xml)| [UI Design 2 XML](https://github.com/Yemeksepeti-Mobil-Android-Bootcamp/android-views-furkanakalin/blob/master/app/src/main/res/layout/activity_profile.xml)| 
