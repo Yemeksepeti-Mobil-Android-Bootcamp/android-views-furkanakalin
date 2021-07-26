@@ -11,3 +11,4 @@
 | --- | ---
  |  <image src="https://user-images.githubusercontent.com/80040232/124367837-7b185f80-dc63-11eb-8b76-8ea7cc83e324.PNG" width="300"> | <image src="https://user-images.githubusercontent.com/80040232/124367935-933cae80-dc64-11eb-9bf6-653ca9930d0b.PNG" width="300"> | 
   [UI Design 1 XML](https://github.com/Yemeksepeti-Mobil-Android-Bootcamp/android-views-furkanakalin/blob/master/app/src/main/res/layout/activity_secound.xml)| [UI Design 2 XML](https://github.com/Yemeksepeti-Mobil-Android-Bootcamp/android-views-furkanakalin/blob/master/app/src/main/res/layout/activity_profile.xml)| 
+# Deneme
